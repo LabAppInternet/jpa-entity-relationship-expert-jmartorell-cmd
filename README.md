@@ -22,7 +22,7 @@ well as to write the SQL queries to the console. You can use this to check if JP
 3. **Add JPA Annotations**: Based on your analysis, add the appropriate JPA annotations to the domain classes. Relationships are:
    - A `Note` can have multiple `Tag`s.
    - A `Tag` can be associated with multiple `Note`s, but we are not interested in this relationship.
-   - A `User` can have multiple `Note`s.
+   -X A `User` can have multiple `Note`s. 
    - A `Note` can have multiple `Permission`s.
    - A `User` can have multiple `Permission`s.
    - A `Permission` is associated with a `Note` and a `User`. So, a permission has a composed key of `note_id` and `user_id`.
